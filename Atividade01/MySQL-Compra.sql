@@ -1,0 +1,5 @@
+DROP DATABASE db_Compra;
+CREATE DATABASE db_Compra;
+SHOW DATABASES;
+USE db_compra;
+
