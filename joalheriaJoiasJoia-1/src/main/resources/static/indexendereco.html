@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="estilos.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário Endereco</title>
+</head>
+
+<body>
+	<form id="cadastroEnderecoForm">
+		<h1>Coloque seu endereço</h1>
+
+
+		<label for="Nome"> Rua:</label>
+		<input type="text" name="rua" id="rua" required="required">
+
+		<label for="Nome"> Número:</label>
+		<input type="numero" name="numero" id="numero" required="required" autofocus placeholder="">
+
+		<label for="email"> Bairro:</label>
+		<input type="text" name="bairro" id="bairro">
+
+		<label for="cidade"> Cidade: </label>
+		<input type="text" name="cidade" id="cidade">
+
+		<label for="cep"> CEP: </label>
+		<input type="text" name="cep" id="cep">
+
+		<label> Comentarios Adicionais</label>
+		<textarea name="Informações" cols="25" rows="8" id="complemento" maxlength="500" required
+			placeholder=" Escreva aqui o que achar nescessário "></textarea>
+		<p>
+			<button id="enviar" type="submit"> Enviar</button>
+		</p>
+
+		<script src="scriptCadastro.js"></script>
+</body>
+
+</html>
